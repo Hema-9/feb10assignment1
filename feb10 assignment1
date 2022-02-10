@@ -1,0 +1,24 @@
+stud_no=int(input("enter sno"))
+stud_name=input("enter name")
+stud_group=input("enter group")
+stud_sub1=int(input("enter os marks"))
+stud_sub2=int(input("enter account marks"))
+stud_sub3=int(input("enter java marks"))
+stud_sub4=int(input("enter hindi marks "))
+stud_sub5=int(input("enter english marks"))
+stud_sub6=int(input("enter sdc marks"))
+if(stud_sub1>=35 and stud_sub2>=35 and stud_sub3>=35and stud_sub4>=35 and stud_sub5>=35 and stud_sub6>=35):
+    print('pass')
+else:
+    print('fail')
+out put:
+enter sno 1
+enter name kavya
+enter group bca
+enter os marks 57
+enter account marks98
+enter java marks 78
+enter hindi marks 86
+enter english marks76
+enter sdc marks87
+pass
